@@ -1,217 +1,78 @@
-body {
-	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff670f+0,ff670f+100;Orange+Flat+%231 */
-background: #ff670f; /* Old browsers */
-background: -moz-linear-gradient(left,  #ff670f 0%, #ff670f 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  #ff670f 0%,#ff670f 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  #ff670f 0%,#ff670f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff670f', endColorstr='#ff670f',GradientType=1 ); /* IE6-9 */
 
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-}
-
-main {
-	background-color: #ffffff;
+div {border-color: black;
 }
 
 header {
-	padding: 10px;
-}
-
-.header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
-/* Raggruppare i selettori */
-h1 {
-	font-family: 'Conv_ZOMBIES REBORN';
-	font-size: 2em;
-}
-
-
-
-.pippo {
-	color: green;
-}
-
-p.pippo {
-	color: red;
-}
-
-
-a:hover {
-	text-decoration: none;
-}
-
-nav {
-	margin-top: 5px;
-	padding: 10px 15px;
-	background-color: #111;
-}
-
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-
-@media print {
-
-	p {
-		color: #fff;
-		
-	}
-
-
-	h1 {
-		color: red;
-	}
-}
-/* SELETTORI DI DISCENDENTI */
-
-.menu {
-	color: #fff;
-}
-
-.menu  li {
-	display: inline-block;
-	padding: 0 5px;
-}
-
-/* La voce di menu a riposo */
-.menu li a {
-	color: #fff;
-}
-
-/* La voce di menu al passaggio del mouse */
-.menu li a:hover {
-	color: #ff6600;
-}
-
-.contenitore {
-	width: 1024px;
-	margin: 0 auto;
-}
-
-@media only screen 
-  and (min-width: 365px) 
-  and (max-width: 667px) {
-	.contenitore {
-		width:350px;
-	}
-}
-
-@media only screen 
-  and (min-width: 768px) 
-  and (max-width: 1024px)  {
-	.contenitore {
-		width:740px;
-	}
-}
-
-
-
-
-.principale {
-	
-	/* IDENTIFICO LA CLASSE CON IL . */
-
-	padding: 0 15px;
-}
-
-#principale {
-	/* IDENTIFICO L'ID CON IL # */
-}
-
-.table {
-	width: 50%;
-}
-
-.table th {
-    text-align: left;
-    background: #333;
-    color: #fff;
-    padding: 5px;
-}
-
-.table td {
-	border: 1px solid #ff0;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: larger; 
 	padding: 5px;
 }
 
-
-
-.form {
-	background-color: #ccc;
-	padding: 15px;
-	margin: 30px 0;
+body{
+	background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(249,249,249,1) 49%, rgba(0,0,0,1) 100%);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-align: center;
 }
 
-/* Pseudo classe focus */
-input:focus {
-	background-color: yellow;
-	color: black;
-}
-input::placeholder {
-	color: red;
+footer {font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	}
+
+main { background-color: #ffffff;
 }
 
-.topolino h2 {
-	position: relative;
-
+a { text-decoration: none;
 }
 
-.topolino h2:after{
-	content: "";
-	display: block;
-	height: 5px;
-	background-color: green;
-	width: 50px;
-	transition: all 0.3s ease-in;
+nav { margin-top: 5px;
+	padding: 5px;
+	background-color: #000000;
 }
 
-.topolino h2:hover:after {
-	transform: rotate(-24deg);
-}
-
-
-.flex {
-	/*
-		display: block;
-		display: inline;
-		display: inline-block;
-	 */
-
-	display: flex;
-	margin-bottom: 15px;
-
-}
-
-.esempioMargin, .esempioPadding {
-	background-color: red;
-	padding: 15px;
-	margin: 5px;
-}
-
-
-
-
-footer {
-	background-color: #999;
-	padding: 15px;
-	color: #f9f9f9;
+ul { list-style: none;
+	margin: 0;
+	padding: 0;
 	text-align: center;
-	font-size: 12px;
 }
 
-footer .cuore {
-	color: #ff0000;
+ul li { display: inline-block;
+		padding: 10px;		 
 }
 
 
-footer .caffe {
-	color: #624a2e;
+.container { width: 1920px;
+			height: auto;
+			margin: 0 auto;
+}
+
+.menu a { color: #ffffff;
+}
+
+.menu a:hover { color: #26cd51;
+			transition-duration: 0.3s;
+ }
+
+ .menu i:hover { color: #80e2ea;
+			transition-duration: 0.3s;
+ }
+
+.bottom { text-align: center;
+		color: #ffffff;
+		background-color: #000000;
+		position: relative;
+		margin-top: auto;
+		clear: both;
+}
+
+i {color:white;
+margin-left: 5px;
+margin-right:5px;
+}
+
+.img{
+	width: 500px;
+	height: auto;
 }

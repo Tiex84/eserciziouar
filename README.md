@@ -13,6 +13,8 @@ git clone
 
 git pull
 
+git checkout nomebranch
+
 
 
 modificabrutta

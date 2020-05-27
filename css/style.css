@@ -17,6 +17,16 @@ body{
     text-align: center;
 }
 
+h1 {color: #ffffff;
+	background: rgb(54,54,54);
+	background: radial-gradient(circle, rgba(54,54,54,1) 0%, rgba(0,0,0,1) 43%);
+	padding: 20px;
+}
+
+p {
+	color: #ffffff;
+}
+
 footer {font-family: 'Oswald', sans-serif;
 	font-weight: 700;
 	}
@@ -29,7 +39,8 @@ a { text-decoration: none;
 
 nav { margin-top: 5px;
 	padding: 5px;
-	background-color: #000000;
+	background: rgb(54,54,54);
+	background: radial-gradient(circle, rgba(54,54,54,1) 0%, rgba(0,0,0,1) 44%);
 }
 
 ul { list-style: none;
@@ -43,21 +54,61 @@ ul li { display: inline-block;
 }
 
 
-.container { width: 1920px;
+.container {background: #363636; 
+	        width: 1920px;
 			height: auto;
 			margin: 0 auto;
+			
 }
 
 .menu a { color: #ffffff;
 }
 
-.menu a:hover { color: #26cd51;
+.menu a:hover { color: #363636;
 			transition-duration: 0.3s;
  }
 
- .menu i:hover { color: #80e2ea;
+ .menu i:hover { color: #000000;
 			transition-duration: 0.3s;
  }
+
+.imgtxt{
+	position: relative;
+	text-align: center;
+	color: #ffffff;
+}
+
+.top-left{
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.top-left:hover {
+	font-family: 'Condiment', cursive;
+	font-weight: 400;
+	color: #ffffff;
+	transition-duration: 0.3s;
+}
+
+.bottom-right {
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+	font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.bottom-right:hover {
+	font-family: 'Condiment', cursive;
+	font-weight: 400;
+	color: #ffffff;
+	transition-duration: 0.3s;
+}
 
 .bottom { text-align: center;
 		color: #ffffff;
@@ -72,7 +123,9 @@ margin-left: 5px;
 margin-right:5px;
 }
 
-.img{
-	width: 500px;
+.pcont {
+	width: 800px;
 	height: auto;
+	margin: 0 auto;
+
 }

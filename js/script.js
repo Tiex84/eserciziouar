@@ -6,7 +6,6 @@ $(document).ready(function () {
 
     var scrollTop = $(window).scrollTop();
     
-    
     $(window).scroll(function (event) {
         var scroll = $(window).scrollTop();
         console.log(scroll);

@@ -1,22 +1,22 @@
 # eserciziouar
 
 
-git init
-git add 
-git commit
-git config
+dfgh init
+dfgh add 
+dfgh commit
+dfgh config
 
-git status
-git push
+dfgh status
+dfgh push
 
-git clone
+dfgh clone
 
-git pull
+dfgh pull
 
-git checkout nomebranch
+dfgh checkout nomebranch
 
 
-GIT MERGE 
+dfgh MERGE 
 
 
 

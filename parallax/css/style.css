@@ -1,0 +1,30 @@
+body {
+background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 10%, rgba(232,0,149,1) 100%);
+}
+
+.container{
+	width: 1920px;
+	height:1080px;
+}
+
+.sky{
+	width: 3000px;
+	height:1080px;
+}
+
+.planet {
+	position: relative;
+    -webkit-animation:spin 30s linear infinite;
+    -moz-animation:spin 30s linear infinite;
+    animation:spin 30s linear infinite;
+}
+
+audio, embed {
+	position: absolute;
+	z-index: -9999;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

@@ -116,7 +116,9 @@ ul {
 	color: red;
 }
 
-
+#lightgallery img {
+	width: 150px;
+}
 
 .principale {
 	

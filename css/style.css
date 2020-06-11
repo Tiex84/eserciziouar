@@ -120,6 +120,20 @@ ul {
 	width: 150px;
 }
 
+.itemSlider {
+	background-size: cover;
+	background-position:  center center;
+	height: 450px;
+}
+
+/* MASONRY */
+
+.grid-item { width: 25%; }
+.grid-item--width2 { width: 50%; }
+.grid-item--width3 {width:75%;}
+.grid-item img {
+	width: 100%;
+}
 .principale {
 	
 	/* IDENTIFICO LA CLASSE CON IL . */

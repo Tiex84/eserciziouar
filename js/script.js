@@ -6,8 +6,26 @@ $(document).ready(function () {
     $("#lightgallery").lightGallery({
         download: false,
         thumbnail: false,
-}); 
+    }); 
 
+    $("#lightSlider").lightSlider({
+        item: 1,
+        pager: true,
+        auto: true,
+        loop: true,
+        speed: 1000, //ms'
+        pause: 3000,
+        slideMargin: 10,
+        //mode: "fade",
+
+    });
+
+    $('.grid').masonry({
+        // options
+        itemSelector: '.grid-item',
+        //columnWidth: 200,
+        //gutter: 10
+    });
 
 
 

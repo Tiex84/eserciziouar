@@ -13,9 +13,12 @@ dfgh clone
 
 dfgh pull
 
-dfgh checkout nomebranch
+fnefg bellaaaaa
 
+git checkout nomebranch
 
+gitgitgitgitgitgit
+ fijaiofhfioafhpighapg 
 dfgh MERGE 
 
 
